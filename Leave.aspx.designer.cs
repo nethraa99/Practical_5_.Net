@@ -42,6 +42,15 @@ namespace Practical_5_Final
         protected global::System.Web.UI.WebControls.TextBox txtEmployeeName;
 
         /// <summary>
+        /// rfvEmployeeName control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvEmployeeName;
+
+        /// <summary>
         /// Label2 control.
         /// </summary>
         /// <remarks>
@@ -78,6 +87,15 @@ namespace Practical_5_Final
         protected global::System.Web.UI.WebControls.DropDownList ddlLeaveType;
 
         /// <summary>
+        /// rfvLeaveType control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvLeaveType;
+
+        /// <summary>
         /// Label4 control.
         /// </summary>
         /// <remarks>
@@ -94,6 +112,15 @@ namespace Practical_5_Final
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtReason;
+
+        /// <summary>
+        /// rfvReason control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvReason;
 
         /// <summary>
         /// Label5 control.
@@ -114,6 +141,15 @@ namespace Practical_5_Final
         protected global::System.Web.UI.WebControls.TextBox txtLoadAdjusted;
 
         /// <summary>
+        /// rfvLoadAdjusted control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvLoadAdjusted;
+
+        /// <summary>
         /// BtnSubmit control.
         /// </summary>
         /// <remarks>
@@ -121,6 +157,15 @@ namespace Practical_5_Final
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button BtnSubmit;
+
+        /// <summary>
+        /// lblError control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblError;
 
         /// <summary>
         /// pnlSummary control.
@@ -139,5 +184,14 @@ namespace Practical_5_Final
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblSummary;
+
+        /// <summary>
+        /// btnLogout control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnLogout;
     }
 }
