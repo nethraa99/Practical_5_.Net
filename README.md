@@ -1,9 +1,1 @@
-The Academic Calendar & Leave Management System is developed using ASP.NET Web Forms and C#. It uses:
-
-Rich Controls: The Calendar control is used to select the leave date.
-Validation Controls: RequiredFieldValidator is used to validate login and leave form fields.
-Session: Stores the logged-in username, selected leave date, and leave details between pages.
-Cookies: Used for the Remember Me feature so the user can access the system without logging in again.
-Page Authentication: Session/Cookie checking prevents unauthorized direct access to pages.
-Calendar & Date Validation: Allows only valid leave dates.
-Logout: Session.Clear() and Session.Abandon() remove session data, and the login cookie is deleted.
+The Academic Calendar & Leave Management System is developed using ASP.NET Web Forms and C#. The system uses Rich Controls, Validation Controls, Session, and Cookies. The Calendar control is used to select and validate leave dates. Session stores login and leave details between pages, while Cookies implement the Remember Me functionality. Validation controls ensure that valid details are entered. Session and cookie checking also prevents unauthorized direct access to pages. Finally, Logout clears the session and cookie data.
